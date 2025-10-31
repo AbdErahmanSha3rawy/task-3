@@ -1,0 +1,609 @@
+body{
+    margin: 0;
+}
+ 
+.First_section{
+    background-color: rgba(169, 169, 169, 0.1);
+    height: 420px;
+    margin-top: 32.54px;
+    padding: 50px 50px;
+    display: flex;
+
+}
+/* First_section's child   */
+.home{
+    width: 1100px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 60.96px;
+    display: flex;
+}
+.courseword{
+color:rgba(84, 91, 232, 1);
+}
+.Second_section{
+    margin-left: 50px;
+}
+/* first line in sec2 */
+.fline{
+ color: rgba(84, 91, 232, 1);
+}
+.h1{
+    font-size: 60px;
+    font-weight:bolder ;
+    font-family: sans-serif;
+}
+/* .Register botton */
+.Register{
+    width: 130px;
+    height: 35px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 15px;
+    font-family: sans-serif;
+    border-radius: 12% ;
+    cursor: pointer;
+    background-color:rgba(84, 91, 232, 1) ;
+}
+/* when stand on Register botton  */
+.Register:hover{
+    background-color: rgb(0, 18, 219) ;
+    width:130px ;
+    height: 40px;
+    text-align: center;
+    border: black solid;
+    border-radius:20% ;
+}
+.Play_video{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+        display: inline-block;
+}
+/* when stand on Play_video  */
+.Play_video:hover{
+    background-color:rgba(0, 0, 0, 0.275);
+    width:180px ;
+    height: 45px;
+    text-align: center;
+    border-radius:10% ;
+    color: aliceblue;
+}
+.Video_logo{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(240, 201, 50, 1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+/* .Mentor's img */
+.Mentor_img img{
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+/* when stand on .Mentor's img  */
+.Mentor_img img:hover{
+    background-color: rgba(0, 0, 0, 0.071);
+  border: black solid 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.Second_section{
+    height: auto;
+    padding-top: 100px;
+}
+/* contain word & boxes  == .Second_section */
+.content{
+    display: flex;
+    flex-direction: row;
+}
+/* contain the boxes */
+.description{
+    display: flex;
+    flex-direction: row;
+}
+.h2{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight:bolder ;
+    
+}
+/* one box  */
+.descrip{
+    background-color:rgba(84, 91, 232, 1);
+    /* font-size: 20px; */
+    width: 200px;
+    color: white;
+    padding: 40px;
+    margin-bottom: 10px ;
+    margin-left: 25px;
+    border-radius: 8%;
+}
+/* the small img in the box  contain  (.descrip img) */
+.descrip div{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+ /* (.descrip img) */
+.descrip div img{
+    width: 50px;
+    height: 50px;
+}
+/* when stand  on the  box  */
+.descrip:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: blue;
+    border: 3px black solid;
+    border-radius: 11%;
+    color: black;
+    
+}
+.descrip p {
+    font-weight:bolder ;
+    font-family:sans-serif;
+}
+/* arrows for change boxes < > */
+.arrows{
+     display: flex;
+    justify-self: end;
+    margin-right: 100px;
+}
+/* one arrow (<) or (>)  */
+.arrow{ 
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(240, 201, 50, 1);
+    color: antiquewhite;
+    margin-left: 30px;
+   
+}
+.arrow img{
+    width: 12px;
+}
+.arrow a{
+        text-decoration: none;
+
+}
+/* when stand on an .arrow  */
+.arrow:hover{
+    background-color: rgb(9, 255, 0);
+    border: 2px wheat solid;
+}
+.Last_section{
+    background-color: rgb(86, 43, 226);
+    color: antiquewhite;
+    height: 600px   ;
+    margin-top: 30px;
+    display: flex;
+}
+.students_img img{
+    width: 400px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+pre{
+    font-family: sans-serif;
+    font-weight:normal ;
+}
+.pre{
+    font-family: sans-serif;
+     color: darkgrey;
+}
+/* when stand on .students_img  */
+.students_img img:hover{
+    background-color: rgb(57, 17, 188);
+    border: solid black 2px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+/* first-line in sec3 ( paragraph ) */
+.Last_section p{
+    color: yellow;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+/* all words in sec3 */
+.selected_Courses{
+   margin-top: 150px;
+}
+/* nom of ( views / users / courses ) */
+.count{
+    color: yellow;
+    font-size : 20px;
+    margin-right: 50px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    display: flex;
+}
+/* contain (views & users & courses) */
+.children{
+    display: flex;
+    text-align: center;
+    
+}
+    
+@media (max-width: 600px) {
+    body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.First_section{
+    width: auto;
+    background-color: rgba(169, 169, 169, 0.1);
+    height: auto;
+    
+
+}
+.home{
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-left: 0.5px;
+    flex-direction: column;
+}
+.First_section pre{
+    width: 100%;
+}
+.h1{
+    font-size: 60px;
+}
+.Register{
+    width: auto;
+    height: 35px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 12% ;
+    cursor: pointer;
+    background-color:rgba(84, 91, 232, 1) ;
+}
+
+.Play_video{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+
+        display: inline-block;
+}
+
+.h1{
+    font-size: 40px;
+}
+.Mentor_img{
+    width: auto;
+}
+.Mentor_img img{
+    margin-top: 50px;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    
+}
+.Second_section{
+    margin-left: 25px;
+    width: auto;
+    flex-direction: column;
+  height: auto;
+
+}
+
+ .content{
+    flex-direction: column;
+width: auto;
+} 
+.description{
+    width: auto;
+    flex-direction: column;
+
+} 
+
+
+.arrows{
+     display: none;
+}
+.Last_section{
+    width: auto;
+    background-color: rgb(86, 43, 226);
+    color: antiquewhite;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Last_section p{
+  width: auto;
+}
+.students_img{
+    width: auto;
+}
+.students_img img{
+    width: 90%;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-right: 1px;
+}
+
+.selected_Courses{
+    width:auto;
+   margin-top: 80px;
+   margin-left: 15px;
+}
+
+h2{
+    width: auto;
+    font-size: 40px;
+    display: flex;
+}
+.count{
+    
+    font-size : 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+    text-align: center;
+
+
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.First_section{
+    background-color: rgba(169, 169, 169, 0.1);
+    height: auto;
+    margin-top: 50px;
+    padding: 50px ;
+    display: flex;
+
+}
+.home{
+    
+    height: auto;
+    margin-top: 20px;
+    margin-left: 3px;
+    display: flex;
+}
+
+.h1{
+    font-size: 50px;
+}
+
+.Mentor_img img{
+    margin-left: 10px;
+    width: 350px;
+    height: auto;
+}
+
+.Second_section{
+    margin-left: 50px;
+}
+.Second_section{
+    height: auto;
+    padding-top: auto;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+}
+
+.descrip{
+    background-color:rgba(84, 91, 232, 1);
+    font-size: 20px;
+    width: 170px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px ;
+    margin-left: 25px;
+}
+.descrip div{
+  
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.descrip:hover{
+   
+    overflow: hidden;
+    
+}
+
+.arrow{
+    
+    margin-bottom: 20px;
+   
+   
+}
+.arrow a{
+        text-decoration: none;
+
+}
+
+.Last_section{
+   
+    height: auto   ;
+    width: auto;
+    
+    
+}
+.students_img img{
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-right: auto;
+}
+
+.selected_Courses{
+   margin-top: 80px;
+}
+.count{
+    
+    font-size : 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+    
+
+
+}
+
+.children{
+    display: flex;
+    text-align: center;
+}
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.First_section{
+    
+    height: auto;
+    margin-top: 50px;
+    padding: 50px ;
+    display: flex;
+
+
+}
+.home{
+    
+    height: auto;
+    margin-top: 20px;
+    margin-left: 3px;
+    display: flex;
+}
+
+.h1{
+    font-size: 50px;
+}
+
+.Mentor_img img{
+    margin-left: 100px;
+    width: 350px;
+    height: auto;
+}
+
+.Second_section{
+    margin-left: 50px;
+}
+.Second_section{
+    height: auto;
+    padding-top: auto;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    justify-content: space-around;
+}
+
+.descrip{
+    
+    font-size: 20px;
+    width: 170px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px ;
+    margin-left: 25px;
+}
+.descrip div{
+  
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.descrip:hover{
+   
+    overflow: hidden;
+    
+}
+
+.arrow{
+    
+    margin-bottom: 20px;
+   
+   
+}
+.arrow a{
+        text-decoration: none;
+
+}
+
+.Last_section{
+   
+    height: auto   ;
+    width: auto;
+    
+    
+}
+.students_img img{
+    width: 350px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.selected_Courses{
+   margin-top: 80px;
+}
+.count{
+    
+    font-size : 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+    
+
+
+}
+
+.children{
+    display: flex;
+    text-align: center;
+}
+
+} 
